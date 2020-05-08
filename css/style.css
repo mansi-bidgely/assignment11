@@ -22,15 +22,13 @@
          url('../fonts/dayrom.woff') format('woff'),
          url('../fonts/dayrom.ttf') format('truetype'),
          url('../fonts/dayrom.svg#dayrom') format('svg');
-  }
-  
+  } 
   .blog-title {
     text-align: center;
   }
   .my-friends {
     color: #A34D4D;
   }
-
   .side-blog {
     background-color: #706b63;
     border-radius: 8px;
@@ -39,44 +37,40 @@
     margin: 9px;
     width: 420px;   
   }
-
   h1,h2,h3 {
     text-transform: uppercase;
   }
-
-      .blog-image {
+ .blog-image {
         align-content: center;
         border-radius: 9px;
         height: 174px;
         margin: 16px 88px;
         width: 218px;
       }
-      .social-icons {
+.social-icons {
         margin: 18px 70px;
       }
-    #pointer {
+ #pointer {
       border: solid 10px transparent;
       border-right-color: #707b63;
       margin: 117px 0 0 -34px;
       position: absolute;
      }
-  .text1 {
+.text1 {
   font-size: 15px;
   }
-
-
-  .img2 {
+.img2 {
      position: relative;
     width: 100%;
   }
-  .img2 img {
+.img2 img {
     width: 100%;
   }
-  body {
+body {
     background-color: #FFF9DC;
     font-family: dayrom, sans-serif;
   }
-  .img2 .content2 {
+.img2 .content2 {
     background: rgba(0, 0, 0);
     color: #f1f1f1;
     height: 60px;
@@ -85,13 +79,12 @@
     position: absolute;
     padding: 0px;
     width: 100%;
-   }
-  
-  .title {
+   }  
+.title {
     background-color: #FFF9D9;
     font-family: 'ballpark';
   }
-  h4 .heading {
+h4 .heading {
     margin-top: 20px;
   }
   .text {
@@ -112,45 +105,45 @@
       padding: 16px;
       text-decoration: none;      
   }
-  span {
+span {
     font-family: ballpark ,Lato;
   }
 
-  nav {
+nav {
     display: flex;
     justify-content: center;
   }
-  ul {
+ul {
       margin: 0 auto;
       width: 30%;
       display: flex;
       justify-content: space-between;
     }
-    nav li {   
+nav li {   
      display: inline;
   }
-  nav ul {
+nav ul {
     margin-right: 5px;
       margin-top: -20px;     
       float: right;
       color: black;
       padding: 0 3px;
   }
-  .top {
+.top {
       position: absolute;
       align-content: center;
       margin: -1px -722px;
   }
-  .partition {
+.partition {
     width: 100%;
     height: 4px;
   }
-  .partition2 {
+.partition2 {
     width: 100%;
     height: 8px;
     position: relative;
   }
-  nav ul li a {
+nav ul li a {
     text-decoration: none;
     color: black;
   }
