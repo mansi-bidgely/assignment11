@@ -1,149 +1,173 @@
 
-  @font-face {
-    font-family: 'ballpark';
-    font-style: normal;
-    font-weight: normal;
-    src: url('../fonts/ballpark.eot');
-    src: local('ballpark'), local('ballpark-Regular'),
-         url('../fonts/ballpark.eot?#iefix') format('embedded-opentype'),
-        
-         url('../fonts/ballpark.woff') format('woff'),
-         url('../fonts/ballpark.ttf') format('truetype'),
-         url('../fonts/ballpark.svg#ballpark') format('svg');
-  }
-  @font-face {
-    font-family: 'dayrom';
-    font-style: normal;
-    font-weight: normal;
-    src: url('../fonts/dayrom.eot');
-    src: local('dayrom'), local('dayrom-Regular'),
-         url('../fonts/dayrom.eot?#iefix') format('embedded-opentype'),
-        
-         url('../fonts/dayrom.woff') format('woff'),
-         url('../fonts/dayrom.ttf') format('truetype'),
-         url('../fonts/dayrom.svg#dayrom') format('svg');
-  } 
-  .blog-title {
-    text-align: center;
-  }
-  .my-friends {
-    color: #A34D4D;
-  }
-  .side-blog {
-    background-color: #706b63;
-    border-radius: 8px;
-    color: #ffffff;
-    height: 490px;
-    margin: 9px;
-    width: 420px;   
-  }
-  h1,h2,h3 {
-    text-transform: uppercase;
-  }
- .blog-image {
-        align-content: center;
-        border-radius: 9px;
-        height: 174px;
-        margin: 16px 88px;
-        width: 218px;
-      }
+@font-face {
+	font-family: 'ballpark';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/ballpark.eot');
+	src: local('ballpark'), local('ballpark-Regular'),
+	url('../fonts/ballpark.eot?#iefix') format('embedded-opentype'),
+
+	url('../fonts/ballpark.woff') format('woff'),
+	url('../fonts/ballpark.ttf') format('truetype'),
+	url('../fonts/ballpark.svg#ballpark') format('svg');
+}
+
+@font-face {
+	font-family: 'dayrom';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/dayrom.eot');
+	src: local('dayrom'), local('dayrom-Regular'),
+	url('../fonts/dayrom.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/dayrom.woff') format('woff'),
+	url('../fonts/dayrom.ttf') format('truetype'),
+	url('../fonts/dayrom.svg#dayrom') format('svg');
+} 
+
+.blog-title {
+	text-align: center;
+}
+
+.my-friends {
+	color: #A34D4D;
+}
+
+.side-blog {
+	background-color: #706b63;
+	border-radius: 8px;
+	color: #ffffff;
+	height: 490px;
+	margin: 9px;
+	width: 420px;   
+}
+
+h1,h2,h3 {
+	text-transform: uppercase;
+}
+
+.blog-image {
+	align-content: center;
+	border-radius: 9px;
+	height: 174px;
+	margin: 16px 88px;
+	width: 218px;
+}
+
 .social-icons {
-        margin: 18px 70px;
-      }
- #pointer {
-      border: solid 10px transparent;
-      border-right-color: #707b63;
-      margin: 117px 0 0 -34px;
-      position: absolute;
-     }
+	margin: 18px 70px;
+}
+
+#pointer {
+	border: solid 10px transparent;
+	border-right-color: #707b63;
+	margin: 117px 0 0 -34px;
+	position: absolute;
+}
+
 .text1 {
-  font-size: 15px;
-  }
+	font-size: 15px;
+}
+
 .img2 {
-     position: relative;
-    width: 100%;
-  }
+	position: relative;
+	width: 100%;
+}
+
 .img2 img {
-    width: 100%;
-  }
+	width: 100%;
+}
+
 body {
-    background-color: #FFF9DC;
-    font-family: dayrom, sans-serif;
-  }
+	background-color: #FFF9DC;
+	font-family: dayrom, sans-serif;
+}
+
 .img2 .content2 {
-    background: rgba(0, 0, 0);
-    color: #f1f1f1;
-    height: 60px;
-    margin-top: -60px;
-    opacity: 0.7;
-    position: absolute;
-    padding: 0px;
-    width: 100%;
-   }  
+	background: rgba(0, 0, 0);
+	color: #f1f1f1;
+	height: 60px;
+	margin-top: -60px;
+	opacity: 0.7;
+	position: absolute;
+	padding: 0px;
+	width: 100%;
+}  
+
 .title {
-    background-color: #FFF9D9;
-    font-family: 'ballpark';
-  }
+	background-color: #FFF9D9;
+	font-family: 'ballpark';
+}
+
 h4 .heading {
-    margin-top: 20px;
-  }
-  .text {
-    text-align: justify;
-  }
-  .see-article{
-      background-color: #892A28;
-      border: none;
-      border-radius: 8px;
-      color: white;
-      cursor: pointer;
-      display: inline-block;
-      font-size: 13px;
-      float: right;
-      height: -12px;
-      margin-top: -44px;
-      margin-right: 16px;
-      padding: 16px;
-      text-decoration: none;      
-  }
+	margin-top: 20px;
+}
+
+.text {
+	text-align: justify;
+}
+
+.see-article{
+	background-color: #892A28;
+	border: none;
+	border-radius: 8px;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 13px;
+	float: right;
+	height: -12px;
+	margin-top: -44px;
+	margin-right: 16px;
+	padding: 16px;
+	text-decoration: none;      
+}
+
 span {
-    font-family: ballpark ,Lato;
-  }
+	font-family: ballpark ,Lato;
+}
 
 nav {
-    display: flex;
-    justify-content: center;
-  }
+	display: flex;
+	justify-content: center;
+}
+
 ul {
-      margin: 0 auto;
-      width: 30%;
-      display: flex;
-      justify-content: space-between;
-    }
+	margin: 0 auto;
+	width: 30%;
+	display: flex;
+	justify-content: space-between;
+}
+
 nav li {   
-     display: inline;
-  }
+	display: inline;
+}
+
 nav ul {
-    margin-right: 5px;
-      margin-top: -20px;     
-      float: right;
-      color: black;
-      padding: 0 3px;
-  }
+	margin-right: 5px;
+	margin-top: -20px;     
+	float: right;
+	color: black;
+	padding: 0 3px;
+}
+
 .top {
-      position: absolute;
-      align-content: center;
-      margin: -1px -722px;
-  }
+	position: absolute;
+	align-content: center;
+	margin: -1px -722px;
+}
+
 .partition {
-    width: 100%;
-    height: 4px;
-  }
+	width: 100%;
+	height: 4px;
+}
+
 .partition2 {
-    width: 100%;
-    height: 8px;
-    position: relative;
-  }
+	width: 100%;
+	height: 8px;
+	position: relative;
+}
+
 nav ul li a {
-    text-decoration: none;
-    color: black;
-  }
+	text-decoration: none;
+	color: black;
+}
