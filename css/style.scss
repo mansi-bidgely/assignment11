@@ -1,0 +1,175 @@
+@font-face {
+    font-family: 'ballpark';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/ballpark.eot');
+    src: local('ballpark'), local('ballpark-Regular'), url('../fonts/ballpark.eot?#iefix') format('embedded-opentype'), url('../fonts/ballpark.woff') format('woff'), url('../fonts/ballpark.ttf') format('truetype'), url('../fonts/ballpark.svg#ballpark') format('svg');
+}
+@font-face {
+    font-family: 'dayrom';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/dayrom.eot');
+    src: local('dayrom'), local('dayrom-Regular'), url('../fonts/dayrom.eot?#iefix') format('embedded-opentype'), url('../fonts/dayrom.woff') format('woff'), url('../fonts/dayrom.ttf') format('truetype'), url('../fonts/dayrom.svg#dayrom') format('svg');
+}
+h1 {
+    h2 {
+        h3 {
+            h4 {
+                h5 {
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+    text-transform: uppercase;
+}
+.blog_title {
+    text-align: center;
+}
+.my_friends {
+    color: #A34D4D;
+}
+.grey {
+    background-color: #706b63;
+    color: #ffffff;
+    margin: 9px;
+    height: 490px;
+    width: 420px;
+    border-radius: 8px;
+}
+h2 {
+    text-transform: uppercase;
+}
+h3 {
+    text-transform: uppercase;
+}
+.blog_image {
+    width: 218px;
+    height: 174px;
+    align-content: center;
+    margin: 16px 88px;
+    border-radius: 9px;
+}
+.social_icons {
+    margin: 18px 70px;
+}
+#pointer {
+    border: solid 10px transparent;
+    border-right-color: #707b63;
+    position: absolute;
+    margin: 117px 0 0 -34px;
+}
+.text1 {
+    font-size: 15px;
+}
+.img2 {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    img {
+        width: 100%;
+    }
+    .content2 {
+        position: absolute;
+        height: 60px;
+        background: rgb(0, 0, 0);
+        color: #f1f1f1;
+        width: 100%;
+        padding: 0px;
+        margin-top: -60px;
+        opacity: 0.7;
+    }
+}
+body {
+    background-color: #FFF9DC;
+    font-family: dayrom, sans-serif;
+}
+.body_class {
+    background-color: #FFF9D9;
+    font-family: 'dayrom';
+}
+.title {
+    background-color: #FFF9D9;
+    font-family: 'ballpark';
+}
+h4 {
+    .heading {
+        margin-top: 20px;
+    }
+}
+.text {
+    text-align: justify;
+}
+.side-blog {
+    background-color: #706b63;
+    border-radius: 8px;
+    color: #ffffff;
+    height: 490px;
+    margin: 9px;
+    width: 420px;   
+}
+.see-article {
+    background-color: #892A28;
+    border: none;
+    color: white;
+    padding: 16px;
+    height: -12px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+    float: right;
+    margin-top: -44px;
+    margin-right: 16px;
+}
+span {
+    font-family: ballpark ,Lato;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    li {
+        display: inline;
+    }
+    ul {
+        margin-right: 5px;
+        margin-top: -20px;
+        float: right;
+        color: black;
+        padding: 0 3px;
+        li {
+            a {
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+}
+ul {
+    margin: 0 auto;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.top {
+    position: absolute;
+    align-content: center;
+    margin: -1px -722px;
+}
+.line {
+    width: 100%;
+    height: 4px;
+}
+.line2 {
+    width: 100%;
+    height: 8px;
+    position: relative;
+}
+.partition2 {
+    width: 100%;
+    height: 8px;
+    position: relative;
+}
