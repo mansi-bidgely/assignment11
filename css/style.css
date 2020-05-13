@@ -10,16 +10,14 @@
   font-weight: normal;
   src: url("../fonts/dayrom.eot");
   src: local("dayrom"), local("dayrom-Regular"), url("../fonts/dayrom.eot?#iefix") format("embedded-opentype"), url("../fonts/dayrom.woff") format("woff"), url("../fonts/dayrom.ttf") format("truetype"), url("../fonts/dayrom.svg#dayrom") format("svg"); }
-h1 {
+.message {
+  border: 1px solid #ccc;
+  padding: 50px;
+  color: red;
+  background-color: red; }
+
+h1 h2 h3 h4 {
   text-transform: uppercase; }
-  h1 h2 h3 h4 h5 {
-    text-transform: uppercase; }
-
-.blog_title {
-  text-align: center; }
-
-.my_friends {
-  color: #A34D4D; }
 
 .grey {
   background-color: #706b63;
@@ -35,14 +33,7 @@ h2 {
 h3 {
   text-transform: uppercase; }
 
-.blog_image {
-  width: 218px;
-  height: 174px;
-  align-content: center;
-  margin: 16px 88px;
-  border-radius: 9px; }
-
-.social_icons {
+.social-icons {
   margin: 18px 70px; }
 
 #pointer {
@@ -74,13 +65,9 @@ body {
   background-color: #FFF9DC;
   font-family: dayrom, sans-serif; }
 
-.body_class {
-  background-color: #FFF9D9;
-  font-family: 'dayrom'; }
-
 .title {
-  background-color: #FFF9D9;
-  font-family: 'ballpark'; }
+  background-color: #FFF9DC;
+  font-family: ballpark; }
 
 h4 .heading {
   margin-top: 20px; }
@@ -113,7 +100,7 @@ h4 .heading {
   margin-right: 16px; }
 
 span {
-  font-family: ballpark ,Lato; }
+  font-family: ballpark, Lato; }
 
 nav {
   display: flex;
